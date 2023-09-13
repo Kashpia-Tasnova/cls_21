@@ -1,0 +1,94 @@
+#inline{
+    background-color: red;
+    display: inline;
+    padding: 15px;
+    height: 150px; /*inline e height kaj kre na */
+}
+#inline-block{
+    background-color: green;
+    display: inline-block;
+    padding: 15px;
+    height: 150px;
+}
+.align{
+    width: 50%;
+    height: 150px;
+    border: 5px solid green;
+    margin: auto;
+    
+    
+}
+img{
+    margin: auto;
+    display: block;
+}
+.one{
+   width: 50%;
+    height: 150px;
+    border: 5px solid green;
+    margin: auto;
+    padding: 0px 200px;/*text left right e nia jai */
+    text-align: center;/*text align normally horizontaly kaj kre*/
+    line-height: 200px;/*vertically text upore niche nia jai*/
+}
+.subdiv{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.div1>p{
+    color: blue;
+}
+.div1+p{
+    background-color: palevioletred;
+}
+.div2~p{
+    background-color:blueviolet;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: violet;
+    padding: 20 px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+a:link{
+    color: blue; 
+    opacity: 0.3;
+}
+a:visited{
+    background-color: red;
+}
+a:hover{
+    opacity: 1;/*brightness control kre */
+}
+a:active{
+    background-color: black;
+}
+.text{
+    height: 400px;
+    width: 600px;
+    border: 2px solid green;
+}
+div.text:hover{
+    border: 5px dotted red;
+}
+div.text p:hover{
+    border: 5px dotted red; 
+}
+div.text p:first-child{
+    color: blue; /*first child erpr p use krle shb p er color change hbe*/
+    
+}
+q:lang(no){
+    quotes: "@" "$";
+}
